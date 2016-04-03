@@ -17,7 +17,7 @@
     });
     """
   "chain then":
-    prefix: ".then"
+    prefix: ".th"
     body: ".then((${1:value}) => {${0}})"
   "Promise.catch":
     prefix: "catch"
@@ -27,5 +27,5 @@
     });
     """
   "chain catch":
-    prefix: ".catch"
+    prefix: ".ca"
     body: ".catch((${1:err}) => {${0}})"
