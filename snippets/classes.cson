@@ -3,7 +3,7 @@
     prefix: "c"
     body: """
     class ${1:name} {
-    \tconstructor(${2:arguments}) {
+    \tconstructor(${2:args}) {
     \t\t${0}
     \t}
     }
@@ -12,8 +12,8 @@
     prefix: "cex"
     body: """
     class ${1:name} extends ${2:base} {
-    \tconstructor(${3:arguments}) {
-    \t\tsuper(${3:arguments})
+    \tconstructor(${3:args}) {
+    \t\tsuper(${3:args})
     \t\t${0}
     \t}
     }
@@ -21,7 +21,7 @@
   "class function":
     prefix: "cf"
     body: """
-    ${1:name} (${2:arguments}) {
+    ${1:name} (${2:args}) {
     \t${0}
     }
     """

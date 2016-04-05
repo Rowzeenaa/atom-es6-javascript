@@ -5,7 +5,7 @@
   "method":
     prefix: "m"
     body: """
-    ${1:method}(${2:arguments}) {
+    ${1:method}(${2:args}) {
     \t${0}
     }
     """
@@ -36,14 +36,14 @@
   "prototype method":
     prefix: "proto"
     body: """
-    ${1:Class}.prototype.${2:method} = function (${3:arguments}) {
+    ${1:Class}.prototype.${2:method} = (${3:args}) => {
     \t${0}
     };
     """
   "chain prototype method":
     prefix: ".proto"
     body: """
-    .prototype.${2:methodName} = function (${3:arguments}) {
+    .prototype.${2:methodName} = (${3:args}) {
     \t${0}
     }
     """

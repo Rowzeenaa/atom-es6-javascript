@@ -11,8 +11,8 @@
   "module as class":
     prefix: "mc"
     body: """
-    var ${1:name} = (function () {
-    \tfunction ${1:name}(${2:arguments}) {
+    var ${1:name} = (()=> {
+    \tfunction ${1:name}(${2:args}) {
     \t\t${0}
     \t}
     \treturn ${1:name};
