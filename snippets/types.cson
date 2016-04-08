@@ -18,8 +18,8 @@
     prefix: "Rx"
     body: "RegExp"
   "typeof":
-    prefix: "tof"
-    body: """typeof ${1:source};"""
+    prefix: "ty"
+    body: """typeof ${1}"""
   "instanceof":
     prefix: "iof"
     body: "${1:source} instanceof ${2:Object}"
