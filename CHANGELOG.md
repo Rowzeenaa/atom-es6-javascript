@@ -1,3 +1,6 @@
+### 0.5.3 - Package Updates
+* Object methods added
+
 ### 0.5.2 - Package Updates
 * The "arguments" keyword removed as it has become obsolete
 * Using arrow function instead of anonymous function
