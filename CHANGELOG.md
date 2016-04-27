@@ -1,3 +1,6 @@
+### 0.5.3 - Package Maintenance
+* Double quotes removed
+
 ### 0.5.3 - Package Updates
 * Object methods added
 

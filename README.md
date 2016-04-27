@@ -1,5 +1,6 @@
 # ES6 JavaScript
-Write JavaScript quickly with over 150+ handy snippets. Less typing more coding!
+Write JavaScript quickly with over 150+ handy snippets. Fully ES6!
+Less typing more coding!
 
 # Note:
 This is a fork of `atom-es6-javascript` by @hharnisc which in turn was a fork of `turbo-javascript` by @extrabacon.

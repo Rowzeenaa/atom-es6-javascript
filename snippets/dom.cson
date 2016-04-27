@@ -1,6 +1,6 @@
 ".source.js":
   "addEventListener":
-    prefix: "ae"
+    prefix: "ael"
     body: """
     ${1:document}.addEventListener('${2:event}', (e) => {
     \t${0}
